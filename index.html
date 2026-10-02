@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+
+<html lang="tr"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><title>İstanbul Gayrimenkul Danışmanlığı</title><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "on-tertiary-container": "#fefbff",
+          "on-tertiary-fixed": "#131b2e",
+          "on-error": "#ffffff",
+          "on-secondary": "#ffffff",
+          "tertiary-fixed-dim": "#bec6e0",
+          "outline-variant": "#c2c6d8",
+          "tertiary-container": "#6c748b",
+          "on-secondary-container": "#00714d",
+          "inverse-primary": "#b2c5ff",
+          "on-primary-fixed-variant": "#0040a1",
+          "secondary-fixed-dim": "#4edea3",
+          "surface-bright": "#f9f9ff",
+          "surface": "#f9f9ff",
+          "tertiary": "#545b72",
+          "primary-container": "#006aff",
+          "background": "#f9f9ff",
+          "on-error-container": "#93000a",
+          "on-primary-container": "#fefbff",
+          "on-tertiary-fixed-variant": "#3f465c",
+          "on-primary-fixed": "#001847",
+          "on-secondary-fixed": "#002113",
+          "primary-fixed": "#dae2ff",
+          "status-alert": "#D9381E",
+          "on-tertiary": "#ffffff",
+          "on-surface-variant": "#424655",
+          "on-secondary-fixed-variant": "#005236",
+          "surface-container-highest": "#dce2f7",
+          "secondary-fixed": "#6ffbbe",
+          "secondary": "#006c49",
+          "border-strong": "#CBD5E1",
+          "primary-fixed-dim": "#b2c5ff",
+          "outline": "#727787",
+          "border-subtle": "#E5E7EB",
+          "on-primary": "#ffffff",
+          "tertiary-fixed": "#dae2fd",
+          "error-container": "#ffdad6",
+          "surface-variant": "#dce2f7",
+          "surface-tint": "#0056d1",
+          "primary": "#0053cc",
+          "secondary-container": "#6cf8bb",
+          "surface-container": "#e9edff",
+          "surface-container-high": "#e1e8fd",
+          "surface-dim": "#d3daef",
+          "error": "#ba1a1a",
+          "inverse-on-surface": "#edf0ff",
+          "surface-container-lowest": "#ffffff",
+          "on-surface": "#141b2b",
+          "surface-container-low": "#f1f3ff",
+          "text-muted": "#64748B",
+          "on-background": "#141b2b",
+          "surface-canvas": "#FFFFFF",
+          "surface-subtle": "#F9F9FB",
+          "inverse-surface": "#293040"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "margin": "2rem",
+          "gutter-mobile": "1rem",
+          "space-sm": "0.5rem",
+          "space-xl": "2rem",
+          "space-xs": "0.25rem",
+          "margin-mobile": "1rem",
+          "space-lg": "1.5rem",
+          "space-md": "1rem",
+          "gutter": "1.5rem"
+        },
+        "fontFamily": {
+          "headline-lg": [
+            "Inter"
+          ],
+          "body-lg": [
+            "Inter"
+          ],
+          "display-xl-mobile": [
+            "Inter"
+          ],
+          "headline-sm": [
+            "Inter"
+          ],
+          "label-md": [
+            "Inter"
+          ],
+          "body-sm": [
+            "Inter"
+          ],
+          "headline-lg-mobile": [
+            "Inter"
+          ],
+          "body-md": [
+            "Inter"
+          ],
+          "display-xl": [
+            "Inter"
+          ],
+          "label-lg": [
+            "Inter"
+          ],
+          "headline-md": [
+            "Inter"
+          ],
+          "label-sm": [
+            "Inter"
+          ]
+        },
+        "fontSize": {
+          "headline-lg": [
+            "36px",
+            {
+              "lineHeight": "44px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "700"
+            }
+          ],
+          "body-lg": [
+            "18px",
+            {
+              "lineHeight": "28px",
+              "letterSpacing": "-0.005em",
+              "fontWeight": "400"
+            }
+          ],
+          "display-xl-mobile": [
+            "36px",
+            {
+              "lineHeight": "44px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "800"
+            }
+          ],
+          "headline-sm": [
+            "20px",
+            {
+              "lineHeight": "28px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "label-md": [
+            "12px",
+            {
+              "lineHeight": "16px",
+              "letterSpacing": "0.02em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-sm": [
+            "14px",
+            {
+              "lineHeight": "20px",
+              "letterSpacing": "0em",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-lg-mobile": [
+            "28px",
+            {
+              "lineHeight": "36px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "700"
+            }
+          ],
+          "body-md": [
+            "16px",
+            {
+              "lineHeight": "24px",
+              "letterSpacing": "0em",
+              "fontWeight": "400"
+            }
+          ],
+          "display-xl": [
+            "56px",
+            {
+              "lineHeight": "64px",
+              "letterSpacing": "-0.03em",
+              "fontWeight": "800"
+            }
+          ],
+          "label-lg": [
+            "14px",
+            {
+              "lineHeight": "20px",
+              "letterSpacing": "0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "headline-md": [
+            "24px",
+            {
+              "lineHeight": "32px",
+              "letterSpacing": "-0.015em",
+              "fontWeight": "600"
+            }
+          ],
+          "label-sm": [
+            "11px",
+            {
+              "lineHeight": "14px",
+              "letterSpacing": "0.03em",
+              "fontWeight": "500"
+            }
+          ]
+        }
+      },
+    },
+  }</script></head><body class="bg-surface text-on-surface antialiased"><header class="sticky top-0 w-full z-50 bg-surface-canvas border-b border-border-subtle shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 max-w-[1440px] mx-auto px-margin-mobile md:px-margin flex items-center justify-between gap-gutter"><div class="flex items-center gap-space-md"><svg role="img" aria-label="İstanbul Gayrimenkul Danışmanlığı Logosu" class="h-8 w-auto" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" fill="none">
+  <rect width="40" height="40" y="4" rx="10" fill="#006AFF"/>
+  <path d="M12 28L20 16L28 28H12Z" fill="white"/>
+  <path d="M16 28V33C16 33.5 16.5 34 17 34H23C23.5 34 24 33.5 24 33V28" stroke="white" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M28 22L32 28H26" stroke="#93C5FD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="48" y="24" font-family="Inter, system-ui, sans-serif" font-weight="700" font-size="15" fill="#0F172A" letter-spacing="-0.02em">İSTANBUL</text>
+  <text x="48" y="38" font-family="Inter, system-ui, sans-serif" font-weight="500" font-size="11" fill="#006AFF" letter-spacing="0.04em">GAYRİMENKUL</text>
+</svg><a class="flex flex-col" data-path="anasayfa" href="#"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none">İstanbul</span><span class="font-label-sm text-label-sm text-text-muted uppercase tracking-wider mt-space-xs">Gayrimenkul Danışmanlığı</span></a></div><nav class="hidden xl:flex items-center gap-gutter" data-active-classes="text-primary font-semibold"><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="satilik" href="#">Satılık</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="kiralik" href="#">Kiralık</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="mulk-yonetimi" href="#">Mülk Yönetimi</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="degerleme-raporu" href="#">Değerleme Raporu</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="hakkimizda" href="#">Hakkımızda</a><a class="font-label-lg text-label-lg text-on-surface-variant hover:text-on-surface transition-colors py-space-xs" data-path="iletisim" href="#">İletişim</a></nav><div class="flex items-center gap-space-sm"><a class="hidden md:inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-surface-subtle border border-border-subtle hover:border-border-strong text-on-surface transition-colors" href="tel:+902128504420"><span class="material-symbols-outlined text-primary text-[18px]">call</span><span class="font-label-sm text-label-sm font-semibold tracking-normal">+90 (212) 850 44 20</span></a><a class="inline-flex items-center gap-space-xs px-space-md py-space-sm rounded-lg bg-secondary hover:bg-on-secondary-container text-on-secondary transition-all shadow-[0_1px_3px_0_rgba(17,24,39,0.05)]" href="https://wa.me/902128504420" rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-on-secondary text-[18px]">chat</span><span class="font-label-sm text-label-sm font-semibold">WhatsApp</span></a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- HERO SECTION WITH BOSPHORUS PANORAMA & CORE INTENT ENGINE -->
+<section class="relative w-full overflow-hidden bg-gradient-to-b from-primary-fixed to-surface-container-low">
+<!-- Visual Backdrop Layer -->
+<div class="absolute inset-0 z-0">
+<img alt="İstanbul Boğazı lüks sahil şeridi ve modern rezidans mimarisi gün batımı manzarası" class="w-full h-full object-cover object-center filter brightness-[0.92] contrast-[1.03]" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMZCfEvX_XgZn1AmrNLIY2vdmRRnLO1VjStieVt6B-pu5QcJ2G4kPA5fimUpNXadOnxg5sbWZhRtZrtc0QevB8yWvaoYuBqletaVPaEcZufT-rX2wtNGRfg1cf5LkxwMhgueEZ51641LgRIzhG5oKaL7XqEaBA4zVo4IRyy1PLnxEEveOY2hDXW6fc8U45Y0dCOgXsOpyOJl2481l00hiDLi9GN0bIOwxpeSquPj8uCxLywkLNypLHjg"/>
+<div class="absolute inset-0 bg-gradient-to-b from-surface/85 via-surface/70 to-surface"></div>
+</div>
+<!-- Main Container -->
+<div class="relative z-10 max-w-[1440px] mx-auto px-margin-mobile md:px-margin pt-space-lg pb-space-xl flex flex-col items-center">
+<!-- Trust Micro-Badge -->
+<div class="inline-flex items-center gap-space-xs px-space-md py-space-xs rounded-full bg-surface-canvas shadow-sm mb-space-md">
+<span class="inline-block w-2 h-2 rounded-full bg-secondary animate-pulse"></span>
+<span class="font-label-sm text-label-sm text-on-surface uppercase tracking-wider font-semibold">İstanbul Geneli 1.200+ Doğrulanmış Mülk</span>
+<span class="text-outline-variant font-light">•</span>
+<span class="font-label-sm text-label-sm text-text-muted">Resmi Yetki Belgesi: 3401892</span>
+</div>
+<!-- Authoritative Hero Typography -->
+<div class="text-center max-w-4xl mx-auto mb-space-lg">
+<h1 class="font-display-xl text-headline-lg-mobile md:text-display-xl text-on-surface tracking-tight mb-space-sm font-extrabold">
+          İstanbul'da Gayrimenkul İşlemleriniz İçin <span class="text-primary underline decoration-primary/20 decoration-wavy decoration-2 underline-offset-8">Hızlı ve Güvenilir</span> Çözümler
+        </h1>
+<p class="font-body-lg text-body-md md:text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+          Kiralama, satın alma veya mülk yönetimi hedefleriniz için veri odaklı, şeffaf ve kurumsal gayrimenkul danışmanlığı.
+        </p>
+</div>
+<!-- 5 Main Category Interactive Cards (Zillow Search Style) -->
+<div class="w-full max-w-5xl mb-space-lg">
+<div class="grid grid-cols-2 md:grid-cols-5 gap-space-xs md:gap-space-sm p-space-xs bg-surface-canvas/90 backdrop-blur-md rounded-xl shadow-md">
+<!-- Category 1: Kiralık Ev Arıyorum (Active by default) -->
+<button aria-pressed="true" class="category-btn active flex flex-col items-center justify-center p-space-md rounded-lg bg-surface-container-high text-primary transition-all duration-200 shadow-sm text-center group" data-category="kiralik-ara" type="button">
+<span class="text-2xl mb-1 group-hover:scale-110 transition-transform">🔑</span>
+<span class="font-label-md text-label-md font-bold leading-tight">Kiralık Ev Arıyorum</span>
+<span class="mt-1 w-1.5 h-1.5 rounded-full bg-primary indicator"></span>
+</button>
+<!-- Category 2: Evimi Kiraya Vermek İstiyorum -->
+<button class="category-btn flex flex-col items-center justify-center p-space-md rounded-lg hover:bg-surface-subtle text-on-surface-variant transition-all duration-200 text-center group" data-category="kiralik-ver" type="button">
+<span class="text-2xl mb-1 group-hover:scale-110 transition-transform">🏠</span>
+<span class="font-label-md text-label-md font-semibold leading-tight">Evimi Kiraya Vermek İstiyorum</span>
+<span class="mt-1 w-1.5 h-1.5 rounded-full bg-transparent indicator"></span>
+</button>
+<!-- Category 3: Satılık Ev Arıyorum -->
+<button class="category-btn flex flex-col items-center justify-center p-space-md rounded-lg hover:bg-surface-subtle text-on-surface-variant transition-all duration-200 text-center group" data-category="satilik-ara" type="button">
+<span class="text-2xl mb-1 group-hover:scale-110 transition-transform">🔍</span>
+<span class="font-label-md text-label-md font-semibold leading-tight">Satılık Ev Arıyorum</span>
+<span class="mt-1 w-1.5 h-1.5 rounded-full bg-transparent indicator"></span>
+</button>
+<!-- Category 4: Evimi Satmak İstiyorum -->
+<button class="category-btn flex flex-col items-center justify-center p-space-md rounded-lg hover:bg-surface-subtle text-on-surface-variant transition-all duration-200 text-center group" data-category="satilik-ver" type="button">
+<span class="text-2xl mb-1 group-hover:scale-110 transition-transform">🏷️</span>
+<span class="font-label-md text-label-md font-semibold leading-tight">Evimi Satmak İstiyorum</span>
+<span class="mt-1 w-1.5 h-1.5 rounded-full bg-transparent indicator"></span>
+</button>
+<!-- Category 5: Yatırım Yapmak İstiyorum -->
+<button class="category-btn col-span-2 md:col-span-1 flex flex-col items-center justify-center p-space-md rounded-lg hover:bg-surface-subtle text-on-surface-variant transition-all duration-200 text-center group" data-category="yatirim" type="button">
+<span class="text-2xl mb-1 group-hover:scale-110 transition-transform">📈</span>
+<span class="font-label-md text-label-md font-semibold leading-tight">Yatırım Yapmak İstiyorum</span>
+<span class="mt-1 w-1.5 h-1.5 rounded-full bg-transparent indicator"></span>
+</button>
+</div>
+</div>
+<!-- INTERACTIVE Q&A WIZARD (5 categories) -->
+<div class="w-full max-w-5xl bg-surface-canvas rounded-xl shadow-xl p-space-md md:p-space-xl" id="quizCard">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-space-xs pb-space-md mb-space-md">
+<div>
+<div class="flex items-center gap-space-xs flex-wrap">
+<span class="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-bold" id="stepBadge">1. SORU</span>
+<h2 class="font-headline-sm text-headline-sm text-on-surface font-bold tracking-tight" id="quizTitle"></h2>
+</div>
+<p class="font-body-sm text-body-sm text-text-muted mt-1" id="quizSubtitle"></p>
+</div>
+<div class="w-full md:w-56 mt-space-xs md:mt-0 flex flex-col items-end gap-1">
+<div class="flex items-center justify-between w-full font-label-sm text-label-sm text-text-muted"><span>Tamamlanma Oranı</span><span class="font-bold text-primary" id="progressText">%0</span></div>
+<div class="w-full h-2 rounded-full bg-surface-container-high overflow-hidden"><div class="h-full bg-primary rounded-full transition-all duration-500 ease-out" id="progressBar" style="width:0%"></div></div>
+</div>
+</div>
+<div id="quizBody" aria-live="polite"></div>
+<div class="flex items-center justify-between gap-space-md pt-space-lg mt-space-md" id="quizNav">
+<button class="px-space-lg py-3 rounded-lg bg-surface-subtle hover:bg-surface-container-high text-on-surface font-label-lg text-label-lg font-semibold flex items-center gap-1 transition-colors disabled:opacity-40 disabled:cursor-not-allowed" id="backBtn" type="button"><span class="material-symbols-outlined text-[20px]">arrow_back</span>Geri</button>
+<div class="flex items-center gap-space-xs text-text-muted font-body-sm text-body-sm hidden md:flex"><span class="material-symbols-outlined text-secondary text-[20px]">timer</span><span>Ortalama dönüş süresi: <strong class="text-on-surface font-semibold">18 - 30 dakika</strong></span></div>
+<button class="px-space-xl py-3.5 bg-primary hover:bg-surface-tint active:scale-[0.99] text-on-primary rounded-lg font-label-lg text-label-lg font-bold shadow-lg shadow-primary/20 flex items-center justify-center gap-space-xs transition-all disabled:opacity-40 disabled:cursor-not-allowed disabled:shadow-none" id="nextBtn" type="button"><span id="nextLabel">Devam</span><span class="material-symbols-outlined text-[20px]" id="nextIcon">arrow_forward</span></button>
+</div>
+</div>
+</div>
+</section>
+<!-- MARKET BENCHMARK / POPULAR DISTRICTS SNAPSHOT (Zillow style analytics) -->
+<section class="w-full bg-surface-canvas py-space-xl">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-space-lg">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Canlı Piyasa Verileri</span>
+<h2 class="font-headline-md text-headline-md text-on-surface font-extrabold tracking-tight mt-1">
+            İstanbul Öne Çıkan İlçe Piyasası
+          </h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Bölge bazlı metrekare fiyat ortalamaları, kira çarpanları ve 2024 getiri endeksi.</p>
+</div>
+<div class="mt-space-sm md:mt-0 flex items-center gap-space-xs font-label-sm text-label-sm text-text-muted">
+<span class="material-symbols-outlined text-primary text-[18px]">insights</span>
+<span>Son güncelleme: Bu sabah 09:30</span>
+</div>
+</div>
+<!-- District Cards Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-space-md">
+<!-- District 1: Beylikdüzü -->
+<div class="p-space-md rounded-xl bg-surface-subtle hover:bg-surface transition-all duration-300 shadow-sm hover:shadow-md flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface group-hover:text-primary transition-colors">Beylikdüzü</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-bold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">trending_up</span> +14.8%
+              </span>
+</div>
+<p class="font-body-sm text-body-sm text-text-muted mb-space-md">Marina aksı, geniş metrajlı konut projeleri ve düzenli kentsel altyapı.</p>
+</div>
+<div class="space-y-2 pt-space-xs">
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-text-muted">Ort. Kira Getirisi:</span>
+<span class="font-bold text-on-surface">32.500 ₺ / Ay</span>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-text-muted">m² Satış Birim:</span>
+<span class="font-bold text-on-surface">42.800 ₺ / m²</span>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-text-muted">Amortisman Süresi:</span>
+<span class="font-bold text-secondary">13.8 Yıl</span>
+</div>
+</div>
+</div>
+<!-- District 2: Avcılar -->
+<div class="p-space-md rounded-xl bg-surface-subtle hover:bg-surface transition-all duration-300 shadow-sm hover:shadow-md flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface group-hover:text-primary transition-colors">Avcılar</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-bold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">trending_up</span> +12.2%
+              </span>
+</div>
+<p class="font-body-sm text-body-sm text-text-muted mb-space-md">Metrobüs hattı yakınlığı, kentsel dönüşüm konutları ve yüksek kira talebi.</p>
+</div>
+<div class="space-y-2 pt-space-xs">
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-text-muted">Ort. Kira Getirisi:</span>
+<span class="font-bold text-on-surface">26.000 ₺ / Ay</span>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-text-muted">m² Satış Birim:</span>
+<span class="font-bold text-on-surface">36.500 ₺ / m²</span>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-text-muted">Amortisman Süresi:</span>
+<span class="font-bold text-secondary">12.9 Yıl</span>
+</div>
+</div>
+</div>
+<!-- District 3: Başakşehir -->
+<div class="p-space-md rounded-xl bg-surface-subtle hover:bg-surface transition-all duration-300 shadow-sm hover:shadow-md flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface group-hover:text-primary transition-colors">Başakşehir</span>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm font-bold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">trending_up</span> +18.4%
+              </span>
+</div>
+<p class="font-body-sm text-body-sm text-text-muted mb-space-md">Şehir Hastanesi, metro bağlantıları, aile odaklı siteler ve lüks vadiler.</p>
+</div>
+<div class="space-y-2 pt-space-xs">
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-text-muted">Ort. Kira Getirisi:</span>
+<span class="font-bold text-on-surface">39.000 ₺ / Ay</span>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-text-muted">m² Satış Birim:</span>
+<span class="font-bold text-on-surface">54.000 ₺ / m²</span>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-text-muted">Amortisman Süresi:</span>
+<span class="font-bold text-secondary">14.2 Yıl</span>
+</div>
+</div>
+</div>
+<!-- District 4: Esenyurt -->
+<div class="p-space-md rounded-xl bg-surface-subtle hover:bg-surface transition-all duration-300 shadow-sm hover:shadow-md flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-space-sm">
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface group-hover:text-primary transition-colors">Esenyurt</span>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface-variant font-label-sm text-label-sm font-bold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[14px]">trending_flat</span> +8.9%
+              </span>
+</div>
+<p class="font-body-sm text-body-sm text-text-muted mb-space-md">Yüksek kiralama hacmi, uygun bütçeli 1+1 ve 2+1 yatırım fırsatları.</p>
+</div>
+<div class="space-y-2 pt-space-xs">
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-text-muted">Ort. Kira Getirisi:</span>
+<span class="font-bold text-on-surface">19.500 ₺ / Ay</span>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-text-muted">m² Satış Birim:</span>
+<span class="font-bold text-on-surface">24.200 ₺ / m²</span>
+</div>
+<div class="flex items-center justify-between font-label-sm text-label-sm">
+<span class="text-text-muted">Amortisman Süresi:</span>
+<span class="font-bold text-secondary">11.6 Yıl</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- TRUST & SOCIAL PROOF ("Neden İstanbul Gayrimenkul?") -->
+<section class="w-full bg-surface py-space-xl">
+<div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin">
+<!-- Section Header -->
+<div class="text-center max-w-2xl mx-auto mb-space-xl">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-bold">Kurumsal Standartlar</span>
+<h2 class="font-headline-lg text-headline-md md:text-headline-lg text-on-surface font-extrabold tracking-tight mt-1">
+          Neden İstanbul Gayrimenkul?
+        </h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-space-xs">
+          Milyonluk kararlarınızda spekülasyonu değil, teyitli verileri ve yasal koruma mekanizmalarını merkeze alıyoruz.
+        </p>
+</div>
+<!-- 3-Column High-Trust Cards -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-lg mb-space-xl">
+<!-- Pillar 1 -->
+<div class="p-space-lg rounded-xl bg-surface-canvas shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col items-start">
+<div class="w-14 h-14 rounded-xl bg-primary-fixed text-primary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[32px]">balance</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">Şeffaf İletişim</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
+            Gizli komisyon, son dakika ek masrafları veya belirsiz maddeler yok. Tüm sözleşme, rayiç bedel ve resmi tapu süreçlerinde %100 tarafsız netlik.
+          </p>
+<div class="mt-auto inline-flex items-center gap-1.5 font-label-md text-label-md text-primary font-bold">
+<span>Sözleşme Standartlarımız</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+<!-- Pillar 2 -->
+<div class="p-space-lg rounded-xl bg-surface-canvas shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col items-start">
+<div class="w-14 h-14 rounded-xl bg-secondary-container text-on-secondary-container flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[32px]">verified_user</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">Doğrulanmış Portföy</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
+            Fiziksel olarak saha ekibimizce yerinde incelenmiş, tapu takyidat belgeleri ve belediye imar kayıtları eksiksiz denetlenmiş 1.200+ aktif ilan.
+          </p>
+<div class="mt-auto inline-flex items-center gap-1.5 font-label-md text-label-md text-secondary font-bold">
+<span>Ekspertiz Metodolojisi</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+<!-- Pillar 3 -->
+<div class="p-space-lg rounded-xl bg-surface-canvas shadow-md hover:-translate-y-1 transition-all duration-300 flex flex-col items-start">
+<div class="w-14 h-14 rounded-xl bg-surface-container-high text-primary flex items-center justify-center mb-space-md">
+<span class="material-symbols-outlined text-[32px]">bolt</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm font-bold text-on-surface mb-space-xs">Hızlı Geri Dönüş</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-space-md">
+            Talebinize ortalama 18 dakika içerisinde doğrudan uzman bölge danışmanı tarafından yanıt garantisi. Saatlerce beklemeden sonuca ulaşın.
+          </p>
+<div class="mt-auto inline-flex items-center gap-1.5 font-label-md text-label-md text-primary font-bold">
+<span>VIP Hızlı İletişim</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</div>
+</div>
+</div>
+<!-- Trust Badges & Accreditations Ribbon -->
+<div class="p-space-md rounded-xl bg-surface-canvas shadow-sm flex flex-wrap items-center justify-center md:justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">verified</span>
+<div>
+<p class="font-label-sm text-label-sm font-bold text-on-surface">T.C. Ticaret Bakanlığı</p>
+<p class="font-body-sm text-body-sm text-text-muted">Taşınmaz Ticareti Yetki No: 3401892</p>
+</div>
+</div>
+<div class="h-8 w-px bg-surface-container hidden md:block"></div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[24px]">shield</span>
+<div>
+<p class="font-label-sm text-label-sm font-bold text-on-surface">TÜGEM Üyesi</p>
+<p class="font-body-sm text-body-sm text-text-muted">Tüm Girişimci Emlak Müşavirleri Derneği</p>
+</div>
+</div>
+<div class="h-8 w-px bg-surface-container hidden md:block"></div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-on-surface-variant text-[24px]">apartment</span>
+<div>
+<p class="font-label-sm text-label-sm font-bold text-on-surface">İstanbul Ticaret Odası</p>
+<p class="font-body-sm text-body-sm text-text-muted">İTO Sicil No: 849204 / 52. Komite</p>
+</div>
+</div>
+<div class="h-8 w-px bg-surface-container hidden md:block"></div>
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">security</span>
+<div>
+<p class="font-label-sm text-label-sm font-bold text-on-surface">KVKK Uyumlu Süreç</p>
+<p class="font-body-sm text-body-sm text-text-muted">Uçtan Uca Veri Güvenliği</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- FLOATING INTERACTIVE WHATSAPP ADVISOR BUTTON -->
+<aside class="fixed bottom-6 right-6 z-50 flex items-center group">
+<!-- Tooltip Bubble (always visible on desktop, smooth pop) -->
+<div class="hidden md:flex items-center gap-2 mr-3 px-space-md py-space-xs rounded-xl bg-surface-canvas shadow-xl text-on-surface font-label-md text-label-md font-semibold pointer-events-none transition-all duration-300 group-hover:-translate-x-1">
+<span class="inline-block w-2 h-2 rounded-full bg-secondary animate-ping"></span>
+<span>Hızlı Danışman Hattı: <strong>WhatsApp ile hemen yazın</strong></span>
+</div>
+<!-- WhatsApp CTA Button -->
+<a aria-label="WhatsApp üzerinden gayrimenkul danışmanına yazın" class="w-14 h-14 rounded-full bg-secondary text-on-secondary shadow-2xl flex items-center justify-center hover:scale-110 active:scale-95 transition-all duration-200" href="https://wa.me/902128504420?text=Merhaba,%20İstanbul%20Gayrimenkul%20portföyünüz%20hakkında%20bilgi%20almak%20istiyorum." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[32px]">chat</span>
+</a>
+</aside>
+</div>
+<script>
+(function () {
+  const D = [
+    ['avcilar', 'Avcılar'], ['beylikduzu', 'Beylikdüzü'], ['esenyurt', 'Esenyurt'], ['basaksehir', 'Başakşehir'],
+    ['bakirkoy', 'Bakırköy'], ['besiktas', 'Beşiktaş'], ['kadikoy', 'Kadıköy'], ['sariyer', 'Sarıyer'], ['uskudar', 'Üsküdar']
+  ].map(([v, l]) => ({ v: l, l }));
+  const opts = (...a) => a.map(x => ({ v: x, l: x }));
+  const ROOMS = opts('1+1', '2+1', '3+1', '4+1 ve üzeri');
+  const FEATURES = opts('Kapalı otopark', 'Balkon / teras', 'Site içi', 'Asansör', 'Güvenlik', 'Deniz manzarası');
+
+  const CATS = {
+    'kiralik-ara': {
+      title: 'Kiralık Ev Arıyorum', sub: 'Size uygun kiralık portföyleri eşleştirmek için birkaç soruyu yanıtlayın.',
+      q: [
+        { id: 'ilce', t: 'Hangi ilçelerde arıyorsunuz?', h: 'Birden fazla seçebilirsiniz.', type: 'multi', o: D },
+        { id: 'oda', t: 'Kaç odalı bir ev istiyorsunuz?', type: 'single', o: ROOMS },
+        { id: 'butce', t: 'Aylık kira bütçeniz nedir?', type: 'single', o: opts('20.000 ₺ altı', '20.000 - 35.000 ₺', '35.000 - 60.000 ₺', '60.000 - 100.000 ₺', '100.000 ₺ üzeri') },
+        { id: 'zaman', t: 'Ne zaman taşınmak istiyorsunuz?', type: 'single', o: opts('Hemen (1 hafta içinde)', '1 ay içinde', '2-3 ay içinde', 'Henüz karar vermedim') },
+        { id: 'esya', t: 'Eşya durumu tercihiniz?', type: 'single', o: opts('Eşyalı', 'Eşyasız', 'Fark etmez') },
+        { id: 'ozellik', t: 'Olmazsa olmaz özellikler?', h: 'İsteğe bağlı — birden fazla seçebilirsiniz.', type: 'multi', optional: true, o: FEATURES.concat(opts('Evcil hayvan kabul')) }
+      ]
+    },
+    'kiralik-ver': {
+      title: 'Evimi Kiraya Vermek İstiyorum', sub: 'Mülkünüz için piyasa kirası ve kiracı sürecini birlikte planlayalım.',
+      q: [
+        { id: 'ilce', t: 'Mülkünüz hangi ilçede?', type: 'single', o: D },
+        { id: 'tip', t: 'Mülk tipi nedir?', type: 'single', o: opts('Daire', 'Rezidans', 'Müstakil / Villa', 'Ticari (dükkan / ofis)') },
+        { id: 'oda', t: 'Oda sayısı?', type: 'single', o: ROOMS },
+        { id: 'durum', t: 'Mülkün şu anki durumu?', type: 'single', o: opts('Boş ve hazır', 'Eşyalı', 'Kiracı var', 'Tadilat gerekiyor') },
+        { id: 'kira', t: 'Beklediğiniz aylık kira (₺)?', h: 'Emin değilseniz boş bırakın, piyasa analizi yapalım.', type: 'number', optional: true, ph: 'Örn: 45000', suffix: '₺' },
+        { id: 'yonetim', t: 'Mülk yönetimi hizmeti ister misiniz?', h: 'Kiracı bulma, tahsilat, bakım ve yasal süreçler.', type: 'single', o: opts('Evet, tam yönetim', 'Sadece kiracı bulma', 'Hayır, kendim yönetirim', 'Bilgi almak istiyorum') }
+      ]
+    },
+    'satilik-ara': {
+      title: 'Satılık Ev Arıyorum', sub: 'Bütçenize ve hedefinize uygun satılık portföyleri sizin için seçelim.',
+      q: [
+        { id: 'ilce', t: 'Hangi ilçeler ilginizi çekiyor?', h: 'Birden fazla seçebilirsiniz.', type: 'multi', o: D },
+        { id: 'oda', t: 'Kaç odalı bir ev arıyorsunuz?', type: 'single', o: ROOMS },
+        { id: 'butce', t: 'Satın alma bütçeniz nedir?', type: 'single', o: opts('5 milyon ₺ altı', '5 - 10 milyon ₺', '10 - 20 milyon ₺', '20 - 40 milyon ₺', '40 milyon ₺ üzeri') },
+        { id: 'amac', t: 'Satın alma amacınız?', type: 'single', o: opts('Kendim oturacağım', 'Yatırım amaçlı', 'Aile için / çocuklar için', 'Yazlık / ikinci ev') },
+        { id: 'odeme', t: 'Ödeme yöntemi?', type: 'single', o: opts('Peşin', 'Konut kredisi', 'Peşinat + taksit', 'Mevcut evimi satıp') },
+        { id: 'ozellik', t: 'Tercih ettiğiniz özellikler?', h: 'İsteğe bağlı.', type: 'multi', optional: true, o: FEATURES.concat(opts('Yeni bina (0-5 yaş)')) }
+      ]
+    },
+    'satilik-ver': {
+      title: 'Evimi Satmak İstiyorum', sub: 'Mülkünüzün gerçek değerini ve en hızlı satış yolunu birlikte belirleyelim.',
+      q: [
+        { id: 'ilce', t: 'Mülkünüz hangi ilçede?', type: 'single', o: D },
+        { id: 'tip', t: 'Mülk tipi nedir?', type: 'single', o: opts('Daire', 'Rezidans', 'Müstakil / Villa', 'Arsa', 'Ticari') },
+        { id: 'oda', t: 'Oda sayısı?', type: 'single', o: ROOMS },
+        { id: 'm2', t: 'Brüt metrekare?', type: 'number', ph: 'Örn: 120', suffix: 'm²', optional: true },
+        { id: 'yas', t: 'Bina yaşı?', type: 'single', o: opts('0-5 yaş', '6-15 yaş', '16-30 yaş', '30 yaş üzeri') },
+        { id: 'fiyat', t: 'Beklediğiniz satış fiyatı (₺)?', h: 'Emin değilseniz boş bırakın, ücretsiz değerleme yapalım.', type: 'number', optional: true, ph: 'Örn: 12000000', suffix: '₺' },
+        { id: 'sure', t: 'Ne kadar sürede satmak istiyorsunuz?', type: 'single', o: opts('Acil (1 ay içinde)', '1-3 ay', '3-6 ay', 'Acelem yok') }
+      ]
+    },
+    'yatirim': {
+      title: 'Yatırım Yapmak İstiyorum', sub: 'Getiri hedefinize uygun, veri odaklı yatırım portföyü hazırlayalım.',
+      q: [
+        { id: 'butce', t: 'Yatırım bütçeniz nedir?', type: 'single', o: opts('$100.000 altı', '$100.000 - $250.000', '$250.000 - $500.000', '$500.000 - $1 milyon', '$1 milyon üzeri') },
+        { id: 'hedef', t: 'Ana yatırım hedefiniz?', type: 'single', o: opts('Yüksek kira getirisi', 'Değer artışı', 'Vatandaşlık (400.000 $ alt sınır)', 'Karma strateji') },
+        { id: 'tip', t: 'Hangi tür mülk?', h: 'Birden fazla seçebilirsiniz.', type: 'multi', o: opts('Konut', 'Rezidans', 'Ticari / Ofis', 'Arsa', 'Proje aşamasında (off-plan)') },
+        { id: 'ilce', t: 'Tercih ettiğiniz bölgeler?', type: 'multi', optional: true, o: D },
+        { id: 'vade', t: 'Yatırım vadeniz?', type: 'single', o: opts('1-3 yıl', '3-5 yıl', '5-10 yıl', '10 yıl üzeri') },
+        { id: 'yonetim', t: 'Mülk yönetimi desteği ister misiniz?', type: 'single', o: opts('Evet, anahtar teslim', 'Kısmi destek', 'Hayır') }
+      ]
+    }
+  };
+
+  const $ = id => document.getElementById(id);
+  const el = (tag, cls, txt) => { const e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
+  const icon = (n, cls) => el('span', 'material-symbols-outlined ' + (cls || ''), n);
+
+  const state = {}; // per-category: { step, answers, contact, done }
+  let cat = 'kiralik-ara';
+  const S = () => state[cat] || (state[cat] = { step: 0, answers: {}, contact: { name: '', phone: '', note: '' }, done: false });
+
+  const filled = (q, a) => q.type === 'multi' ? (a || []).length > 0 : !!(a && String(a).trim());
+  const isOk = (q, a) => q.optional || filled(q, a);
+  const fmtVal = (q, a) => q.type === 'multi' ? (a || []).join(', ') : (q.suffix && a ? Number(a).toLocaleString('tr-TR') + ' ' + q.suffix : a);
+
+  function progress() {
+    const c = CATS[cat], s = S(), total = c.q.length + 1;
+    const pct = s.done ? 100 : Math.round(s.step / total * 100);
+    $('progressBar').style.width = pct + '%';
+    $('progressText').textContent = '%' + pct;
+  }
+
+  function optionBtn(o, selected, multi, onClick) {
+    const b = el('button', 'flex items-center gap-space-sm text-left p-space-md rounded-xl border-2 transition-all duration-150 font-label-lg text-label-lg ' +
+      (selected ? 'border-primary bg-primary-fixed text-on-primary-fixed font-bold' : 'border-border-subtle bg-surface-subtle hover:border-border-strong hover:bg-surface-container-high text-on-surface font-semibold'));
+    b.type = 'button';
+    b.setAttribute('aria-pressed', selected);
+    const mark = el('span', 'shrink-0 w-5 h-5 flex items-center justify-center border-2 ' + (multi ? 'rounded' : 'rounded-full') + ' ' + (selected ? 'bg-primary border-primary text-on-primary' : 'border-outline-variant bg-surface-canvas'));
+    if (selected) mark.appendChild(icon(multi ? 'check' : 'circle', multi ? 'text-[14px]' : 'text-[8px]'));
+    b.append(mark, el('span', '', o.l));
+    b.addEventListener('click', onClick);
+    return b;
+  }
+
+  function render() {
+    const c = CATS[cat], s = S(), body = $('quizBody');
+    body.replaceChildren();
+    $('quizTitle').textContent = c.title;
+    $('quizSubtitle').textContent = c.sub;
+    $('quizNav').classList.toggle('hidden', s.done);
+    progress();
+    if (s.done) return renderDone(body);
+
+    const total = c.q.length + 1;
+    const onContact = s.step >= c.q.length;
+    $('stepBadge').textContent = (s.step + 1) + ' / ' + total;
+    $('backBtn').disabled = s.step === 0;
+    $('nextLabel').textContent = onContact ? 'Talebi Gönder' : 'Devam';
+    $('nextIcon').textContent = onContact ? 'send' : 'arrow_forward';
+
+    if (onContact) { renderContact(body, c, s); }
+    else { renderQuestion(body, c.q[s.step], s); }
+    updateNext();
+  }
+
+  function renderQuestion(body, q, s) {
+    const wrap = el('div', 'flex flex-col gap-space-md');
+    const head = el('div');
+    head.appendChild(el('h3', 'font-headline-md text-headline-md text-on-surface font-bold tracking-tight', q.t));
+    if (q.h || q.optional) head.appendChild(el('p', 'font-body-sm text-body-sm text-text-muted mt-1', (q.h || '') + (q.optional && !/isteğe|boş/i.test(q.h || '') ? ' (İsteğe bağlı)' : '')));
+    wrap.appendChild(head);
+
+    if (q.type === 'number') {
+      const box = el('div', 'relative max-w-md');
+      const inp = el('input', 'w-full h-14 pl-4 pr-14 bg-surface-subtle rounded-xl border-2 border-border-subtle focus:border-primary focus:outline-none text-headline-sm font-semibold text-on-surface');
+      inp.type = 'text'; inp.inputMode = 'numeric'; inp.placeholder = q.ph || '';
+      inp.value = s.answers[q.id] ? Number(s.answers[q.id]).toLocaleString('tr-TR') : '';
+      inp.setAttribute('aria-label', q.t);
+      inp.addEventListener('input', () => {
+        const raw = inp.value.replace(/\D/g, '');
+        s.answers[q.id] = raw;
+        inp.value = raw ? Number(raw).toLocaleString('tr-TR') : '';
+        updateNext();
+      });
+      inp.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); if (!$('nextBtn').disabled) next(); } });
+      box.append(inp, el('span', 'absolute right-4 top-1/2 -translate-y-1/2 text-text-muted font-bold', q.suffix || ''));
+      wrap.appendChild(box);
+      setTimeout(() => inp.focus({ preventScroll: true }), 0);
+    } else {
+      const multi = q.type === 'multi';
+      const grid = el('div', 'grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-space-sm');
+      const draw = () => {
+        grid.replaceChildren();
+        q.o.forEach(o => {
+          const cur = s.answers[q.id];
+          const sel = multi ? (cur || []).includes(o.v) : cur === o.v;
+          grid.appendChild(optionBtn(o, sel, multi, () => {
+            if (multi) {
+              const set = new Set(s.answers[q.id] || []);
+              set.has(o.v) ? set.delete(o.v) : set.add(o.v);
+              s.answers[q.id] = [...set];
+            } else {
+              s.answers[q.id] = o.v;
+            }
+            draw(); updateNext();
+            if (!multi) setTimeout(() => { if (S() === s && !s.done && CATS[cat].q[s.step] === q) next(); }, 220);
+          }));
+        });
+      };
+      draw();
+      wrap.appendChild(grid);
+    }
+    body.appendChild(wrap);
+  }
+
+  function field(label, id, ph, type, iconName, req) {
+    const f = el('div', 'flex flex-col gap-1');
+    const l = el('label', 'font-label-md text-label-md text-on-surface font-bold', label); l.htmlFor = id;
+    if (req) l.appendChild(el('span', 'text-error font-bold ml-1', '*'));
+    const r = el('div', 'relative');
+    r.appendChild(icon(iconName, 'absolute left-3 top-1/2 -translate-y-1/2 text-outline text-[20px] pointer-events-none'));
+    const i = el('input', 'w-full h-12 pl-10 pr-3 bg-surface-canvas rounded-lg border border-border-subtle focus:border-primary text-body-sm font-body-sm text-on-surface focus:outline-none shadow-sm placeholder:text-text-muted');
+    i.id = id; i.type = type; i.placeholder = ph;
+    r.appendChild(i); f.append(l, r);
+    return { f, i };
+  }
+
+  function renderContact(body, c, s) {
+    const wrap = el('div', 'flex flex-col gap-space-md');
+    const head = el('div');
+    head.appendChild(el('h3', 'font-headline-md text-headline-md text-on-surface font-bold tracking-tight', 'Son adım: size nasıl ulaşalım?'));
+    head.appendChild(el('p', 'font-body-sm text-body-sm text-text-muted mt-1', 'Yanıtlarınıza göre hazırlanan portföy listesi WhatsApp hattınıza iletilecektir.'));
+    wrap.appendChild(head);
+    const box = el('div', 'p-space-md rounded-xl bg-surface-subtle/80 grid grid-cols-1 md:grid-cols-3 gap-space-md');
+    const n = field('Ad Soyad', 'fullName', 'Örn: Burak Özdemir', 'text', 'person', true);
+    const p = field('WhatsApp İletişim Numarası', 'phoneNum', '+90 5xx xxx xx xx', 'tel', 'chat', true);
+    const t = field('Ek Talepler / Notlar (Opsiyonel)', 'extraNotes', 'Kapalı otopark, site içi vb.', 'text', 'edit_note', false);
+    n.i.value = s.contact.name; p.i.value = s.contact.phone; t.i.value = s.contact.note;
+    n.i.autocomplete = 'name'; p.i.autocomplete = 'tel';
+    n.i.addEventListener('input', () => { s.contact.name = n.i.value; updateNext(); });
+    p.i.addEventListener('input', () => { s.contact.phone = p.i.value; updateNext(); });
+    t.i.addEventListener('input', () => { s.contact.note = t.i.value; });
+    [n.i, p.i, t.i].forEach(i => i.addEventListener('keydown', e => { if (e.key === 'Enter') { e.preventDefault(); if (!$('nextBtn').disabled) next(); } }));
+    box.append(n.f, p.f, t.f);
+    wrap.appendChild(box);
+    const err = el('p', 'hidden text-error font-label-md text-label-md'); err.id = 'contactErr';
+    wrap.appendChild(err);
+    body.appendChild(wrap);
+  }
+
+  const phoneOk = v => v.replace(/\D/g, '').length >= 10;
+
+  function updateNext() {
+    const c = CATS[cat], s = S();
+    if (s.done) return;
+    const nb = $('nextBtn');
+    if (s.step >= c.q.length) nb.disabled = !(s.contact.name.trim().length >= 2 && phoneOk(s.contact.phone));
+    else { const q = c.q[s.step]; nb.disabled = !isOk(q, s.answers[q.id]); }
+  }
+
+  function summaryRows(c, s) {
+    return c.q.filter(q => filled(q, s.answers[q.id])).map(q => [q.t.replace(/\?$/, ''), fmtVal(q, s.answers[q.id])]);
+  }
+
+  function waLink(c, s) {
+    const lines = ['Merhaba, İstanbul Gayrimenkul web sitesinden talep bırakıyorum.', '', '*Talep:* ' + c.title];
+    summaryRows(c, s).forEach(([k, v]) => lines.push('• ' + k + ': ' + v));
+    lines.push('', '*Ad Soyad:* ' + s.contact.name.trim(), '*Telefon:* ' + s.contact.phone.trim());
+    if (s.contact.note.trim()) lines.push('*Not:* ' + s.contact.note.trim());
+    return 'https://wa.me/902128504420?text=' + encodeURIComponent(lines.join('\n'));
+  }
+
+  function renderDone(body) {
+    const c = CATS[cat], s = S();
+    $('stepBadge').textContent = 'TAMAMLANDI';
+    const wrap = el('div', 'flex flex-col gap-space-md');
+    const ok = el('div', 'p-space-md rounded-xl bg-secondary-container text-on-secondary-container flex items-center gap-space-sm');
+    ok.appendChild(icon('task_alt', 'text-secondary text-[32px]'));
+    const tx = el('div');
+    tx.appendChild(el('p', 'font-label-lg text-label-lg font-bold', 'Talebiniz alındı, ' + s.contact.name.trim().split(' ')[0] + '! Portföy yöneticiniz atanıyor.'));
+    tx.appendChild(el('p', 'font-body-sm text-body-sm opacity-90', 'Kriterlerinize uyan portföy listesi WhatsApp hattınıza ortalama 18 dakika içinde iletilecektir.'));
+    ok.appendChild(tx);
+    wrap.appendChild(ok);
+
+    const sum = el('div', 'rounded-xl bg-surface-subtle p-space-md');
+    sum.appendChild(el('p', 'font-label-md text-label-md uppercase tracking-wider text-primary font-bold mb-space-sm', 'Talep Özeti · ' + c.title));
+    const dl = el('dl', 'grid grid-cols-1 md:grid-cols-2 gap-x-space-xl gap-y-space-sm');
+    summaryRows(c, s).concat([['Ad Soyad', s.contact.name.trim()], ['Telefon', s.contact.phone.trim()]]).forEach(([k, v]) => {
+      const r = el('div', 'flex flex-col');
+      r.append(el('dt', 'font-label-sm text-label-sm text-text-muted', k), el('dd', 'font-label-lg text-label-lg text-on-surface font-semibold', v));
+      dl.appendChild(r);
+    });
+    sum.appendChild(dl); wrap.appendChild(sum);
+
+    const act = el('div', 'flex flex-col sm:flex-row gap-space-sm');
+    const wa = el('a', 'px-space-xl py-3.5 bg-secondary hover:bg-on-secondary-container text-on-secondary rounded-lg font-label-lg text-label-lg font-bold flex items-center justify-center gap-space-xs transition-all', '');
+    wa.href = waLink(c, s); wa.target = '_blank'; wa.rel = 'noopener noreferrer';
+    wa.append(icon('chat', 'text-[20px]'), el('span', '', 'Özeti WhatsApp ile Gönder'));
+    const edit = el('button', 'px-space-lg py-3.5 bg-surface-container-high hover:bg-surface-container-highest text-on-surface rounded-lg font-label-lg text-label-lg font-semibold flex items-center justify-center gap-1', '');
+    edit.type = 'button'; edit.append(icon('edit', 'text-[20px]'), el('span', '', 'Yanıtları Düzenle'));
+    edit.addEventListener('click', () => { s.done = false; s.step = 0; render(); });
+    const rst = el('button', 'px-space-lg py-3.5 text-primary hover:bg-primary-fixed rounded-lg font-label-lg text-label-lg font-semibold flex items-center justify-center gap-1', '');
+    rst.type = 'button'; rst.append(icon('restart_alt', 'text-[20px]'), el('span', '', 'Yeni Talep'));
+    rst.addEventListener('click', () => { delete state[cat]; render(); });
+    act.append(wa, edit, rst); wrap.appendChild(act);
+    body.appendChild(wrap);
+  }
+
+  function next() {
+    const c = CATS[cat], s = S();
+    if (s.step >= c.q.length) {
+      if (!(s.contact.name.trim().length >= 2 && phoneOk(s.contact.phone))) return;
+      const nb = $('nextBtn'); nb.disabled = true;
+      nb.replaceChildren(icon('refresh', 'animate-spin text-[20px]'), el('span', '', 'İşleniyor...'));
+      setTimeout(() => { s.done = true; restoreNext(); render(); $('quizCard').scrollIntoView({ behavior: 'smooth', block: 'center' }); }, 600);
+      return;
+    }
+    s.step++; render();
+  }
+  function restoreNext() {
+    const nb = $('nextBtn');
+    const l = el('span', '', 'Devam'); l.id = 'nextLabel';
+    const i = icon('arrow_forward', 'text-[20px]'); i.id = 'nextIcon';
+    nb.replaceChildren(l, i);
+  }
+
+  $('nextBtn').addEventListener('click', next);
+  $('backBtn').addEventListener('click', () => { const s = S(); if (s.step > 0) { s.step--; render(); } });
+
+  // Category tabs
+  const btns = document.querySelectorAll('.category-btn');
+  function setCat(key) {
+    cat = key;
+    btns.forEach(b => {
+      const on = b.dataset.category === key;
+      b.classList.toggle('active', on);
+      b.classList.toggle('bg-surface-container-high', on);
+      b.classList.toggle('text-primary', on);
+      b.classList.toggle('text-on-surface-variant', !on);
+      b.setAttribute('aria-pressed', on);
+      b.querySelector('.indicator').classList.toggle('bg-primary', on);
+      b.querySelector('.indicator').classList.toggle('bg-transparent', !on);
+    });
+    restoreNext();
+    render();
+  }
+  btns.forEach(b => b.addEventListener('click', () => setCat(b.dataset.category)));
+  setCat(cat);
+})();
+</script></main><footer class="w-full bg-surface-container-low border-t border-border-subtle mt-space-xl"><div class="max-w-[1440px] mx-auto px-margin-mobile md:px-margin pt-space-xl pb-space-lg"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-gutter pb-space-xl border-b border-border-subtle"><div class="lg:col-span-2 flex flex-col gap-space-md"><div class="flex items-center gap-space-md"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight">İstanbul Gayrimenkul Danışmanlığı</span></div><p class="font-body-sm text-body-sm text-on-surface-variant max-w-md">Boğaziçi hattı, Levent-Maslak iş aksı ve tarihi yarımadada kurumsal gayrimenkul danışmanlığı, tapu ekspertiz incelemesi ve küresel yatırım portföy yönetimi sunar.</p><div class="flex flex-wrap items-center gap-space-sm pt-space-xs"><div class="inline-flex items-center gap-space-xs px-space-sm py-space-xs bg-surface-canvas rounded-full border border-border-subtle text-secondary"><span class="material-symbols-outlined text-[16px]">verified</span><span class="font-label-sm text-label-sm font-semibold">TÜGEM Yetki Belgesi: 3401829</span></div><div class="inline-flex items-center gap-space-xs px-space-sm py-space-xs bg-surface-canvas rounded-full border border-border-subtle text-on-surface-variant"><span class="material-symbols-outlined text-[16px]">domain</span><span class="font-label-sm text-label-sm">İTO Sicil No: 849204</span></div></div></div><div class="flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg text-on-surface">Hızlı Erişim</span><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><li class="hover:text-primary"><a data-path="satilik" href="#">Satılık Lüks Konutlar</a></li><li class="hover:text-primary"><a data-path="kiralik" href="#">Kiralık Rezidans &amp; Yalılar</a></li><li class="hover:text-primary"><a data-path="mulk-yonetimi" href="#">Ticari Gayrimenkul &amp; Plaza</a></li><li class="hover:text-primary"><a data-path="degerleme-raporu" href="#">Gayrimenkul Değerleme Raporu</a></li><li class="hover:text-primary"><a data-path="yatirim-rehberi" href="#">Yabancı Yatırımcı Rehberi</a></li></ul></div><div class="flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg text-on-surface">Kurumsal</span><ul class="flex flex-col gap-space-xs font-body-sm text-body-sm text-on-surface-variant"><li class="hover:text-primary"><a data-path="hakkimizda" href="#">Hakkımızda &amp; İlkelerimiz</a></li><li class="hover:text-primary"><a data-path="danismanlar" href="#">Danışman Kadromuz</a></li><li class="hover:text-primary"><a data-path="iletisim" href="#">Genel Merkez &amp; İletişim</a></li><li class="hover:text-primary"><a data-path="kvkk-ve-aydinlatma" href="#">KVKK Aydınlatma Metni</a></li><li class="hover:text-primary"><a data-path="cerez-politikasi" href="#">Çerez Politikası</a></li></ul></div><div class="flex flex-col gap-space-sm"><span class="font-label-lg text-label-lg text-on-surface">Bülten Aboneliği</span><p class="font-body-sm text-body-sm text-on-surface-variant">İstanbul konut endeksi ve VIP portföy fırsatlarını haftalık olarak e-posta kutunuzda alın.</p><div class="flex flex-col gap-space-xs"><div class="flex items-center gap-space-xs"><input class="w-full px-space-md py-space-sm text-body-sm font-body-sm bg-surface-canvas border border-border-subtle rounded-lg focus:outline-none focus:border-primary text-on-surface" placeholder="E-posta adresiniz" type="email"/><button class="px-space-md py-space-sm bg-primary text-on-primary rounded-lg font-label-md text-label-md hover:bg-surface-tint transition-colors" type="button">Kayıt</button></div><span class="font-label-sm text-label-sm text-text-muted">Spam gönderilmez, dilediğiniz an ayrılabilirsiniz.</span></div></div></div><div class="pt-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md"><p class="font-body-sm text-body-sm text-text-muted text-center md:text-left">© 2024 İstanbul Gayrimenkul Danışmanlığı A.Ş. Tüm hakları saklıdır. Gayrimenkul ilan verileri ve ekspertiz kıymetleri bilgilendirme mahiyetindedir.</p><div class="flex items-center gap-space-md font-label-sm text-label-sm text-text-muted"><a class="hover:text-on-surface" data-path="kullanim-kosullari" href="#">Kullanım Koşulları</a><span class="inline-block w-1 h-1 rounded-full bg-border-strong"></span><a class="hover:text-on-surface" data-path="gizlilik-sozlesmesi" href="#">Gizlilik Sözleşmesi</a><span class="inline-block w-1 h-1 rounded-full bg-border-strong"></span><a class="hover:text-on-surface" data-path="site-haritasi" href="#">Site Haritası</a></div></div></div></footer></body></html>
